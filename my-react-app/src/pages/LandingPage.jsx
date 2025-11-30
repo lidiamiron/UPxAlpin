@@ -24,8 +24,11 @@ export default function UpxAlpinLanding() {
             <a href="#servicii" className="hover:text-amber-400 transition">
               Servicii
             </a>
-            <a href="#galerie" className="hover:text-amber-400 transition">
-              Galerie
+            <a href="#Portofoliu" className="hover:text-amber-400 transition">
+              Portofoliu
+            </a>
+            <a href="#despre" className="hover:text-amber-400 transition">
+              Despre
             </a>
             <a href="#contact" className="hover:text-amber-400 transition">
               Contact
@@ -43,14 +46,15 @@ export default function UpxAlpinLanding() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Oferim calitate
+              Servicii profesionale la înălțime
               <br />
-              la înălțime
+              pentru clădiri fără compromisuri
             </h1>
             <p className="text-lg text-gray-300 mb-8">
-              UPX alpin este specializată în servicii de alpinism utilitar,
-              curățare ferestre, montaj, mentenanță la înălțime și inspecții
-              tehnice
+              Experți în lucrări la înălțime, mentenanță fațade și intervenții
+              tehnice pe clădiri. UPX ALPIN lucrează conform standardelor
+              internaționale IRATA, asigurând siguranță totală și rezultate
+              premium.
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold px-8 py-3 rounded-lg transition">
@@ -77,9 +81,16 @@ export default function UpxAlpinLanding() {
       {/* Services Section */}
       <section id="servicii" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">
+          <h2 className="text-4xl font-bold text-center mb-5">
             Serviciile noastre
           </h2>
+          <p className="text-lg text-gray-300 mb-16">
+            Intervenim rapid și eficient acolo unde alte firme nu pot ajunge. Ne
+            desfășurăm activitatea conform procedurilor IRATA, garantând
+            calitate, precizie și protecție maximă. Curățăm, întreținem și
+            protejăm clădirile business-urilor din toată țara. Profesionalism la
+            înălțime, vizibil în fiecare detaliu.
+          </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Servicio 1 */}
@@ -92,11 +103,11 @@ export default function UpxAlpinLanding() {
                 />
               </div>
               <h3 className="text-2xl font-bold mb-4">
-                Curățare ferestre
-                <br /> fațade
+                Curățare Fațade &
+                <br /> Tratamente Ceramice Profesionale
               </h3>
               <p className="text-gray-300">
-                Curățare profesională pentru clădiri comerciale și rezidențiale.{" "}
+                Fațade impecabile și protecție premium pentru suprafețe moderne.{" "}
               </p>
             </div>
 
@@ -110,12 +121,11 @@ export default function UpxAlpinLanding() {
                 />
               </div>
               <h3 className="text-2xl font-bold mb-4">
-                Curățare
-                <br />
-                panouri solare
+                Curățare & Protecție Panouri Solare / Fotovoltaice
               </h3>
               <p className="text-gray-300">
-                Maximizează performanța panourilor cu o curățare specializată.{" "}
+                Randament maxim, protecție ceramică opțională și întreținere pe
+                tot anul.{" "}
               </p>
             </div>
 
@@ -129,14 +139,19 @@ export default function UpxAlpinLanding() {
                 />
               </div>
               <h3 className="text-2xl font-bold mb-4">
-                Instalare
-                <br /> aer conditionat
+                Instalare & Mentenanță A/C
+                <br /> în Zone Greu Accesibile
               </h3>
               <p className="text-gray-300">
-                Montaj complet, testare și mentenanță la înălțime.
+                Servicii tehnice sigure și rapide pentru clădiri.
               </p>
             </div>
           </div>
+          <a href="#">
+            <p className="text-center mt-6 text-gray-300">
+              Vezi toate serviciile noastre aici
+            </p>
+          </a>
         </div>
       </section>
 
