@@ -6,6 +6,11 @@ import CuratareFerestre from "../assets/images/serv-geam-01.jpg";
 import AerConditionat from "../assets/images/serv-ac-01.jpg";
 import FotoBanner from "../assets/images/portofoliu5.jpg";
 import LogoUpXAlpin from "../assets/logos/logo.svg";
+import AboutSection from "./AboutSection";
+import WorkingProcess from "./WorkingProcess";
+import Testimonials from "./Testimonials";
+import CallToAction from "./CallToAction";
+import Footer from "./Footer";
 
 export default function UpxAlpinLanding() {
   return (
@@ -154,6 +159,13 @@ export default function UpxAlpinLanding() {
           </a>
         </div>
       </section>
+      <AboutSection />
+      <WorkingProcess />
+      <Testimonials />
+
+      <CallToAction />
+
+      <section id="about-us" className="py-20 px-6 bg-slate-900/50"></section>
 
       {/* Gallery Section */}
       <section id="galerie" className="py-20 px-6">
@@ -191,11 +203,7 @@ export default function UpxAlpinLanding() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 py-12 px-6 border-t border-green-800/30">
-        <div className="max-w-7xl mx-auto text-center text-gray-400">
-          <p>&copy; 2024 UPX Alpin. Toate drepturile rezervate.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
